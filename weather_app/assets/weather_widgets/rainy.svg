@@ -1,0 +1,24 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cloud -->
+  <g id="cloud" fill="#B0C4DE">
+    <circle cx="70" cy="70" r="20"/>
+    <circle cx="90" cy="70" r="20"/>
+    <circle cx="110" cy="70" r="20"/>
+    <circle cx="85" cy="85" r="25"/>
+    <circle cx="105" cy="85" r="25"/>
+    <circle cx="95" cy="100" r="30"/>
+  </g>
+
+  <!-- Raindrops -->
+  <g id="raindrops" fill="#1E90FF">
+    <line x1="85" y1="120" x2="85" y2="150" stroke="#1E90FF" stroke-width="2">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 10; 0 0" dur="0.5s" repeatCount="indefinite" begin="0s"/>
+    </line>
+    <line x1="100" y1="120" x2="100" y2="150" stroke="#1E90FF" stroke-width="2">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 10; 0 0" dur="0.5s" repeatCount="indefinite" begin="0.2s"/>
+    </line>
+    <line x1="115" y1="120" x2="115" y2="150" stroke="#1E90FF" stroke-width="2">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 10; 0 0" dur="0.5s" repeatCount="indefinite" begin="0.4s"/>
+    </line>
+  </g>
+</svg>
